@@ -32,11 +32,11 @@ public class Menu : MonoBehaviour
 	}
 
 	/// <summary>
-	/// Relance une partie depuis l'écran de sélection des personnages
+	/// Relance une partie depuis l'ï¿½cran de sï¿½lection des personnages
 	/// </summary>
 	public void StartButton()
 	{
-		// Remise à zéro du score et du round
+		// Remise ï¿½ zï¿½ro du score et du round
 		ShowRound.round = 1;
 		ShowRound.score[0] = 0;
 		ShowRound.score[1] = 0;
@@ -52,6 +52,12 @@ public class Menu : MonoBehaviour
 		Application.Quit();
 	}
 
+	public void Commande()
+	{
+		SceneManager.LoadScene("commande");
+
+	}
+
 	/// <summary>
 	/// Ouvre le menu de pause
 	/// </summary>
@@ -63,7 +69,7 @@ public class Menu : MonoBehaviour
 		gameIsPaused = true;
 		GameObject.Find("EventSystem").GetComponent<EventSystem>().SetSelectedGameObject(null);
 
-		// Le score et le round sont masqués
+		// Le score et le round sont masquï¿½s
 		foreach (Text text in GameObject.Find("Round").GetComponentsInChildren<Text>())
 		{
 			text.enabled = false;
@@ -90,7 +96,7 @@ public class Menu : MonoBehaviour
 		gameIsPaused = false;
 		GameObject.Find("Round").transform.GetChild(1).gameObject.SetActive(true);
 
-		// Le score et le round sont affichés
+		// Le score et le round sont affichï¿½s
 		foreach (Text text in GameObject.Find("Round").GetComponentsInChildren<Text>())
 		{
 			text.enabled = true;
