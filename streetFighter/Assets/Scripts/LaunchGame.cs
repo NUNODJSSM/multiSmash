@@ -1,6 +1,6 @@
 /* Project name : streetFighterUnity 
  * Date : 13.09.2021
- * Authors : Jordan, Rémy
+ * Authors : Jordan, Rï¿½my
  * Description : Lance le jeu si les deux joueurs ont choisi leurs personnages
  */
 
@@ -11,7 +11,7 @@ public class LaunchGame : StateMachineBehaviour
 {
 	public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 	{
-		// Si un joueur annule sa sélection le compte à rebours s'arrête
+		// Si un joueur annule sa sï¿½lection le compte ï¿½ rebours s'arrï¿½te
 		if (animator.GetBool("Interrupt"))
 		{
 			animator.Play("Normal");
@@ -20,10 +20,17 @@ public class LaunchGame : StateMachineBehaviour
 
 	public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
 	{
-		// Si le compte à rebours arrive à zéro La partie commence
+		// Si le compte ï¿½ rebours arrive ï¿½ zï¿½ro La partie commence
 		if (!animator.GetBool("Interrupt"))
 		{
-			SceneManager.LoadScene("Battle");
+			if (SceneManager.GetActiveScene().name == "map Selection")
+			{
+				SceneManager.LoadScene("Battle");
+				
+			}else{
+				SceneManager.LoadScene("map Selection");
+
+			}
 		}
 	}
 }
