@@ -231,7 +231,7 @@ public class player : MonoBehaviour
 
 					if (direction > 0)
 					{
-						transform.rotation = new Quaternion(transform.rotation.x, 180 + baseFlip, transform.rotation.z, transform.rotation.w);
+						transform.rotation = new Quaternion(transform.rotation.x, 180 , transform.rotation.z, transform.rotation.w);
 						gameObject.transform.GetChild(PLAYER_TAG_INDEX).GetComponent<SpriteRenderer>().flipX = true;
 						gameObject.transform.GetChild(PLAYER_TAG_INDEX).transform.localPosition = new Vector3(gameObject.transform.GetChild(PLAYER_TAG_INDEX).transform.localPosition.x, gameObject.transform.GetChild(PLAYER_TAG_INDEX).transform.localPosition.y, 1);
 						anim.SetBool("moving", true);
@@ -245,7 +245,7 @@ public class player : MonoBehaviour
 					}
 					else if (direction < 0)
 					{
-						transform.rotation = new Quaternion(transform.rotation.x, 0 + baseFlip, transform.rotation.z, transform.rotation.w);
+						transform.rotation = new Quaternion(transform.rotation.x, 0 , transform.rotation.z, transform.rotation.w);
 						gameObject.transform.GetChild(PLAYER_TAG_INDEX).GetComponent<SpriteRenderer>().flipX = false;
 						gameObject.transform.GetChild(PLAYER_TAG_INDEX).transform.localPosition = new Vector3(gameObject.transform.GetChild(PLAYER_TAG_INDEX).transform.localPosition.x, gameObject.transform.GetChild(PLAYER_TAG_INDEX).transform.localPosition.y, -1);
 						anim.SetBool("moving", true);

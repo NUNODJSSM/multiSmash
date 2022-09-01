@@ -14,6 +14,7 @@ public class KenKick : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
+		Debug.Log("tkt");
 		if (collision.gameObject.tag == "Player")
 		{
 			MakeDamage.Hit(collision, damageKick, new Vector2(kbx, kby), gameObject);
