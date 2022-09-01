@@ -31,7 +31,7 @@ public class CameraFollow : MonoBehaviour
 	/// <summary>
 	/// Taille maximale de la caméra
 	/// </summary>
-	const float MAX_SIZE = 1.9f;
+	const float MAX_SIZE = 2.4f;
 
 	/// <summary>
 	/// Position z de la caméra

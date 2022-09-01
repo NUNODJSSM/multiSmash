@@ -1,21 +1,33 @@
 /* Project name : streetFighterUnity 
  * Date : 13.09.2021
  * Authors : Jordan
- * Description : Fait apparaitre les joueurs sélectionnés
+ * Description : Fait apparaitre les joueurs sï¿½lectionnï¿½s
  */
 
 using UnityEngine;
 using UnityEngine.UI;
+
 
 public class SpawnPlayers : MonoBehaviour
 {
 	/// <summary>
 	/// Positions d'apparition des personnages
 	/// </summary>
-	Vector2[] SPAWN_POINTS = new Vector2[2]
+	Vector2[][] SPAWN_POINTS = new Vector2[2][]
 	{
+		//map grece
+		new Vector2[2]
+		{
 		new Vector2(-2.75f, -0.75f),
 		new Vector2(3, -1)
+		},
+		//map one piece
+		new Vector2[2]
+		{
+			new Vector2(-2.3f, 1f),
+			new Vector2(2.666f, 1f)
+		}
+
 	};
 
 	void Start()
@@ -34,7 +46,7 @@ public class SpawnPlayers : MonoBehaviour
 		{
 			#region Player Instantiation
 			GameObject player = Resources.Load<GameObject>(CharactersSelection.chosenCharactersNames[i]);
-			player.transform.position = SPAWN_POINTS[i];
+			player.transform.position = SPAWN_POINTS[MapSelect.mapIndex][i];
 
 			player.transform.GetChild(2).GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("PlayerTag" + (i + 1));
 			

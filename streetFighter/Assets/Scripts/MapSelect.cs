@@ -54,7 +54,7 @@ public class MapSelect : MonoBehaviour
     /// <summary>
 	/// Index de la map dans la liste
 	/// </summary>
-    int mapIndex = 0;
+    public static int mapIndex = 0;
 
     /// <summary>
 	/// Couleur des bordures des personnages sélectionnés
