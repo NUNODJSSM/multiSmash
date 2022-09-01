@@ -29,7 +29,7 @@ public class ShowRound : StateMachineBehaviour
 		// Affichage du score
 		for (int i = 0; i < score.Length; i++)
 		{
-			GameObject.Find("ScorePlayer" + (i + 1)).GetComponent<Text>().text = "1";//Convert.ToString(i) ;// score[i].ToString();
+			GameObject.Find("ScorePlayer" + (i + 1)).GetComponent<Text>().text = score[i].ToString();
 		}
 
 		// Affichage du round

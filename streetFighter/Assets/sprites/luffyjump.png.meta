@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c8b71982637b50449bf9d6147f48cf93
+guid: e6fddccd92300f248ad3fd3b46538806
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -66,6 +66,42 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -78,7 +114,1981 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: luffyjump_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6300
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477136cf8e185054bbfca6c3503282b5
+      internalID: 963280254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_1
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 6300
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d14a729c9ebf14b93c60d42024adbe
+      internalID: -49496812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_2
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 6300
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a80512120eae4242bb9fd1e9cc50347
+      internalID: -791997832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_3
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 6300
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036f00a23e1e480499d7cb1b14b21c73
+      internalID: -1622392617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_4
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 6300
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce68232155323174e9c4cd1f8d83ba70
+      internalID: 338729303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5950
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad067b6ab3b19bb4d8785274677bd8e5
+      internalID: -437818546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_6
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 5950
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001a8b1f1df20ff448f2be1c9403334f
+      internalID: -766404084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_7
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 5950
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88331c79674a97e44ad30467d3be734e
+      internalID: 1042835719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_8
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 5950
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25250c06f0519fb4ebf436d064620b94
+      internalID: 1437695381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_9
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 5950
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4207d9a977c76d14e99b4fb7b8ded962
+      internalID: 1546512782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5600
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f76167117683c54a9ba05624258cac1
+      internalID: -2050097310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_11
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 5600
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9a8f5b656e200429df66ff021e2cfc
+      internalID: -544445709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_12
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 5600
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402e4b17c55a5dd48be1c4fe08e09ef5
+      internalID: -320278864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_13
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 5600
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4f8526ea6a580419d8a5bbe0fd5695
+      internalID: -1544620685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_14
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 5600
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788654bfc7982344285328cfc3235c10
+      internalID: 1904432409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5250
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19094a5f59772e47a22606f35c222ad
+      internalID: -1766467351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_16
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 5250
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a0b3745aaac164da65908a0bfcce08
+      internalID: -2112297920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_17
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 5250
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4818ef723ed07d4f9e525bfb42fac30
+      internalID: -861384763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_18
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 5250
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a91bdadfd489747b262773f7c3b974
+      internalID: -1765743288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_19
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 5250
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a88ad2a2be5de4fa76b2b967f6b44b
+      internalID: 2125021938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4900
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d17f2a8da1a2bf468140a739e9501df
+      internalID: -1180606035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_21
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 4900
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfca25332b16f14ab81879ac2c0ed91
+      internalID: -1292187373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_22
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 4900
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0265ec54e1a824c4ab5c3d93a0fa4c9c
+      internalID: 1318996582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_23
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 4900
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c37f44a90f6fed4b9084c49bb5c8f72
+      internalID: 297312353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_24
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4900
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18554e3558cc71046909d0e523a9a4a8
+      internalID: 433799252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4550
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b9d05133bd57544bbc74733ab7e9ae
+      internalID: 2121887714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_26
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 4550
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292f817b5d8f3fc4f87580192b4360ef
+      internalID: 821892670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_27
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 4550
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a439885e7de5a0a4b9242938f3a10dc5
+      internalID: 1529659069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_28
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 4550
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c0c73d2ce1920419198beb50698698
+      internalID: -1019649160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_29
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4550
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895f5295569df86439bd3d275d25b20d
+      internalID: 1790431223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4200
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f773e193787d16142b10815c5f617af6
+      internalID: 1344221611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_31
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 4200
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3a26ec99a1178478d4a193eb9be05f
+      internalID: 1668832508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_32
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 4200
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef708419b1e7754b834d3417801a649
+      internalID: -1926106366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_33
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 4200
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e79c8dbb0e84814ba6dea4cded9d984
+      internalID: 1719310639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_34
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4200
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab34095d338f754981c2f349242916f
+      internalID: 534972332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3850
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bb70f9972aa9b459323064b188ca1c
+      internalID: -514517666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_36
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 3850
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d0e3f0901d0024c8bacd346a15a240
+      internalID: -2608435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_37
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3850
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38382c85ee7a32840910e595b669cf4b
+      internalID: -1597261814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_38
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 3850
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a58b9907bb94a47a0aeb641353eb98
+      internalID: 1967656356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_39
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3850
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b128b227151ea4486fd0f8478d3e2a
+      internalID: -685121775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3500
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bad3ed778aea48418f928138b07f2a7
+      internalID: 1494623105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_41
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 3500
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cc6eddfe46d464d91d598c4d5776d1
+      internalID: -835286338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_42
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3500
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e17e8c823388c246a4c4ba8e007d91e
+      internalID: -1995515118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_43
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 3500
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cf0a7d4d12a424494d196a2319b14a
+      internalID: -1409744545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_44
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3500
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecac270acc970d459bb87b0349515ce
+      internalID: -241898162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3150
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fef3e4bee4e1f44ad55c876a8ad1bf
+      internalID: 702277846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_46
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 3150
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7addc535f879564f894bd3e188e8535
+      internalID: 811316613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_47
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3150
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f901d7ef93961469ce2ddb67634330
+      internalID: 657718282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_48
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 3150
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f275294a77e944fa3196414db5b1ad
+      internalID: -2083648055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_49
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3150
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501ef5cf5ff29b74fb07d06c7d5c3459
+      internalID: -1409189624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2800
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cf4c0e03084414997a3222ec89793c
+      internalID: 1410107113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_51
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2800
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c83e52a127f01e4695864360a7a4a5e
+      internalID: -2033449150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_52
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2800
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c6e83e47c05ea49a43016721dcdb3c
+      internalID: 659053391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_53
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2800
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91152f97b053f145bcdffe27f623e77
+      internalID: -1750187809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_54
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2800
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882c6c50ffb507a49b90b2edc0423a41
+      internalID: 1979626214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2450
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1334590d9b8847c44a0309857f13ade1
+      internalID: -1289191321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_56
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2450
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7392fd00c4caaa24cba034efcbe49aaa
+      internalID: -1416149241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_57
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2450
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6257d9af3ed04a40b6102ad05b3c6cf
+      internalID: -970044186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_58
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2450
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4536157d67b744795e093d93a086f9
+      internalID: -86978099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_59
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2450
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5417c067926af94479449c110d9e8837
+      internalID: -227995837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c84d6a69a175e42a8d7e9d1867a60c
+      internalID: -1087962737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_61
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2100
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f2502295385c342ae07c8b0e92835d
+      internalID: 1374002523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_62
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2100
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b17b413141d9ce41accf394724fb98d
+      internalID: -752178905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_63
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2100
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2736be4a1e3c8504e8ab762e77a287ef
+      internalID: -1113344678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_64
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2100
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0db3d7a38db23349a6c853f7851ff30
+      internalID: -1270107310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1750
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c1931d10042c74f9f25bad09e65fbc
+      internalID: 1647016171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_66
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1750
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e72c150e9427a4587a98349cee43db
+      internalID: 404045242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_67
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1750
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf669962f9bbf64997c7a1d460242c4
+      internalID: 1091549678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_68
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1750
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fc623af1b2ff847ad320d525b42dae
+      internalID: -106913945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_69
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1750
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047ef55a2ece0894fbae751d04ecb1e5
+      internalID: -686981375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605c4b70647c9a9478dc7fce9168d09d
+      internalID: 1884245178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_71
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1400
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de696b49fc67f4a49a256780eb469f29
+      internalID: -1431403067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_72
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1400
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e044f80c8dd1e0b4185d8fea94997c33
+      internalID: -1573192734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_73
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1400
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76837d4b193d1824c93b9c950f7a638b
+      internalID: -1974553770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_74
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1400
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434cf1d3e40f6b54cabe187f4c1bba92
+      internalID: -1221679054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1050
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed4555165925fb40ad32e18541351d1
+      internalID: -716044507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_76
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1050
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d765017a45626c47a1c8297bb5cf253
+      internalID: 2129142282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_77
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1050
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ce2eb7a2e6e974298c729da11d8d70
+      internalID: 565997678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_78
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1050
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fcc3ee88c53a2745b9ff384c55bce87
+      internalID: 1117645814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_79
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1050
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b046c618a8150a14bab21986f350d036
+      internalID: 1493805789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74955b3cd9cde46458e39e3d759b0e1f
+      internalID: -1111774952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_81
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 700
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7b371e3c97e4b47a9af243e9c4ba20
+      internalID: -953500421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_82
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 700
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc2a04bdaf4c5e46ae59f56b1856ca2
+      internalID: 1416291059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_83
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 700
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9245c1329cfe62149b63f08dfdedaf51
+      internalID: 2127229518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_84
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 700
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89ab66c64ed8d84190a2b0de4fcc260
+      internalID: -733582237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e51f6fdcbf33144b0c40f104392da6
+      internalID: -1277821094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_86
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 350
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec1644d836778d43a35d201e5d15e7e
+      internalID: 930524353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_87
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 350
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f475495dbdae246a05225e7e2b39dc
+      internalID: -1732054075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_88
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 350
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67034305d446174ba4c9c1f4d040437
+      internalID: -1762892536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_89
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 350
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b9d479154e20344bccf19e978e79e5
+      internalID: -1938180746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54caa8bbf66ae3c428c80376f05ca19b
+      internalID: -1176216821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_91
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236f073f42e72c74db2175664e204276
+      internalID: -1134664949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_92
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989c442dc6b9f56499ccb65ec66d7db7
+      internalID: 1943694528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luffyjump_93
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 450
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3741851f650d531488d768291f4256a5
+      internalID: -249555664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +2099,101 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      luffyjump_36: -2608435
+      luffyjump_16: -2112297920
+      luffyjump_14: 1904432409
+      luffyjump_80: -1111774952
+      luffyjump_89: -1938180746
+      luffyjump_19: 2125021938
+      luffyjump_37: -1597261814
+      luffyjump_32: -1926106366
+      luffyjump_29: 1790431223
+      luffyjump_53: -1750187809
+      luffyjump_38: 1967656356
+      luffyjump_54: 1979626214
+      luffyjump_62: -752178905
+      luffyjump_6: -766404084
+      luffyjump_67: 1091549678
+      luffyjump_71: -1431403067
+      luffyjump_44: -241898162
+      luffyjump_47: 657718282
+      luffyjump_39: -685121775
+      luffyjump_76: 2129142282
+      luffyjump_77: 565997678
+      luffyjump_40: 1494623105
+      luffyjump_8: 1437695381
+      luffyjump_64: -1270107310
+      luffyjump_41: -835286338
+      luffyjump_84: -733582237
+      luffyjump_92: 1943694528
+      luffyjump_11: -544445709
+      luffyjump_3: -1622392617
+      luffyjump_5: -437818546
+      luffyjump_2: -791997832
+      luffyjump_87: -1732054075
+      luffyjump_69: -686981375
+      luffyjump_10: -2050097310
+      luffyjump_90: -1176216821
+      luffyjump_68: -106913945
+      luffyjump_45: 702277846
+      luffyjump_22: 1318996582
+      luffyjump_49: -1409189624
+      luffyjump_60: -1087962737
+      luffyjump_35: -514517666
+      luffyjump_46: 811316613
+      luffyjump_85: -1277821094
+      luffyjump_43: -1409744545
+      luffyjump_12: -320278864
+      luffyjump_42: -1995515118
+      luffyjump_26: 821892670
+      luffyjump_4: 338729303
+      luffyjump_66: 404045242
+      luffyjump_59: -227995837
+      luffyjump_24: 433799252
+      luffyjump_51: -2033449150
+      luffyjump_7: 1042835719
+      luffyjump_23: 297312353
+      luffyjump_28: -1019649160
+      luffyjump_61: 1374002523
+      luffyjump_75: -716044507
+      luffyjump_86: 930524353
+      luffyjump_72: -1573192734
+      luffyjump_82: 1416291059
+      luffyjump_93: -249555664
+      luffyjump_34: 534972332
+      luffyjump_48: -2083648055
+      luffyjump_65: 1647016171
+      luffyjump_74: -1221679054
+      luffyjump_91: -1134664949
+      luffyjump_50: 1410107113
+      luffyjump_15: -1766467351
+      luffyjump_17: -861384763
+      luffyjump_0: 963280254
+      luffyjump_78: 1117645814
+      luffyjump_55: -1289191321
+      luffyjump_31: 1668832508
+      luffyjump_52: 659053391
+      luffyjump_73: -1974553770
+      luffyjump_58: -86978099
+      luffyjump_83: 2127229518
+      luffyjump_57: -970044186
+      luffyjump_18: -1765743288
+      luffyjump_70: 1884245178
+      luffyjump_27: 1529659069
+      luffyjump_21: -1292187373
+      luffyjump_30: 1344221611
+      luffyjump_79: 1493805789
+      luffyjump_33: 1719310639
+      luffyjump_20: -1180606035
+      luffyjump_9: 1546512782
+      luffyjump_25: 2121887714
+      luffyjump_1: -49496812
+      luffyjump_81: -953500421
+      luffyjump_13: -1544620685
+      luffyjump_63: -1113344678
+      luffyjump_56: -1416149241
+      luffyjump_88: -1762892536
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
