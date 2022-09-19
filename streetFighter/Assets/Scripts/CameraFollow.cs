@@ -8,6 +8,16 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
+	///<sumary>
+	/// Player 1 
+	/// </summary>
+	[SerializeField]
+	player player1;
+
+	///<sumary>
+	/// Player 2 
+	/// </summary>
+
 	/// <summary>
 	/// Vitesse de déplacement de la caméra
 	/// </summary>
@@ -50,6 +60,8 @@ public class CameraFollow : MonoBehaviour
 
 	void Start()
 	{
+		player1 = GetComponent<player>();
+
 		// Initialisation des variables
 		zPosition = gameObject.transform.position.z;
 
@@ -62,6 +74,8 @@ public class CameraFollow : MonoBehaviour
 
 	void Update()
 	{
+
+
 		// Mise en mémoire des positions des joueurs
 		Vector2 positionPlayer1 = transformPlayer1.position;
 		Vector2 positionPlayer2 = transformPlayer2.position;
@@ -75,5 +89,7 @@ public class CameraFollow : MonoBehaviour
 		// Ajustement du zoom de la caméra par rapport à la distance entre les joueurs
 		float targetSize = Mathf.Clamp(Vector2.Distance(positionPlayer1, positionPlayer2) / ZOOM, MIN_SIZE, MAX_SIZE);
 		GetComponent<Camera>().orthographicSize = Mathf.Lerp(GetComponent<Camera>().orthographicSize, targetSize, Time.deltaTime * ZOOM_SPEED);
+
+		
 	}
 }

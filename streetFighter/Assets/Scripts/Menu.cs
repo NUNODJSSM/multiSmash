@@ -112,4 +112,16 @@ public class Menu : MonoBehaviour
 		Time.timeScale = 1;
 		SceneManager.LoadScene("Title Screen");
 	}
+	public void BackCharSelection()
+	{
+		gameIsPaused = false;
+		Time.timeScale = 1;
+		SceneManager.LoadScene("Character Selection");
+	}
+	public void GoCredit()
+	{
+		gameIsPaused = false;
+		Time.timeScale = 1;
+		SceneManager.LoadScene("Credit");
+	}
 }

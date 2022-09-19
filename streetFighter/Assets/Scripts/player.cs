@@ -52,12 +52,12 @@ public class player : MonoBehaviour
 	/// <summary>
 	/// Vitesse maximale de course atteignable
 	/// </summary>
-	const float MAX_SPEED = 2;
+	public float MAX_SPEED;
 
 	/// <summary>
 	/// Vitesse de course du personnage
 	/// </summary>
-	public float speed = 0.5f;
+	public float speed;
 
 	/// <summary>
 	/// Hauteur de saut du personnage
@@ -132,6 +132,7 @@ public class player : MonoBehaviour
 	float deathTime;
 	#endregion
 
+
 	void Start()
 	{
 		// Initialisation des variables
@@ -165,6 +166,8 @@ public class player : MonoBehaviour
 		float attack1Input = Input.GetAxis(attack1Axis);
 		float attack2Input = Input.GetAxis(attack2Axis);
 		float fastFallInput = Input.GetAxis(fastFallAxis);
+		speed = Time.deltaTime * 75;
+		MAX_SPEED = Time.deltaTime * 120;
 		#endregion
 
 		// Détection du sol
@@ -399,4 +402,5 @@ public class player : MonoBehaviour
 		GameObject.Find("ScorePlayer2").GetComponent<Text>().text = ShowRound.score[playerIndex].ToString();
 		GameObject.Find("Winner").GetComponent<Text>().text = "Player " + displayPlayer + " has won the round";
 	}
+
 }

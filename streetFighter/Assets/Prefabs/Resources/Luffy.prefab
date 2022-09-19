@@ -266,6 +266,7 @@ Transform:
   - {fileID: 4605377407760894810}
   - {fileID: 3757722426988814855}
   - {fileID: 4098249022548489254}
+  - {fileID: 8102784673155713381}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -283,6 +284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseFlip: 180
   healthBar: {fileID: 0}
+  MAX_SPEED: 0
   speed: 0.15
   knockback: {x: 0, y: 0}
 --- !u!70 &3084385768199438953
@@ -298,8 +300,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.1317631, y: -0.46403655}
-  m_Size: {x: 0.4286948, y: 0.8245933}
+  m_Offset: {x: 0.12842713, y: -0.4640365}
+  m_Size: {x: 0.4551545, y: 0.82459325}
   m_Direction: 0
 --- !u!50 &7474171552889383994
 Rigidbody2D:
@@ -394,6 +396,54 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &5604828277227602455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8102784673155713381}
+  - component: {fileID: 3369712129642212836}
+  m_Layer: 0
+  m_Name: hitboxJump
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &8102784673155713381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5604828277227602455}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0.0025610107, y: 0.31045747, z: 0.49560702}
+  m_LocalScale: {x: 2.4468467, y: 2.2236228, z: 2.5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5023583219865195294}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &3369712129642212836
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5604828277227602455}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.08894491, y: -0.057100497}
+  m_Size: {x: 0.14202356, y: 0.6486124}
+  m_Direction: 0
 --- !u!1 &6215992531383931083
 GameObject:
   m_ObjectHideFlags: 0
