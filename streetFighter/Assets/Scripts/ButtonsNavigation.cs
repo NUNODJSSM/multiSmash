@@ -1,7 +1,7 @@
 /* Project name : streetFighterUnity 
  * Date : 13.09.2021
  * Authors : Jordan, Remy
- * Description : Gère la sélection des boutons
+ * Description : Gï¿½re la sï¿½lection des boutons
  */
 
 using UnityEngine;
@@ -11,9 +11,11 @@ using UnityEngine.UI;
 public class ButtonsNavigation : MonoBehaviour
 {
 	/// <summary>
-	/// Objet contrôlant les évènement de l'interface utilisateur
+	/// Objet contrï¿½lant les ï¿½vï¿½nement de l'interface utilisateur
 	/// </summary>
 	EventSystem eventSystem;
+	int selection = 0;
+	float time = 0;
 
 	void Start()
 	{
@@ -23,10 +25,30 @@ public class ButtonsNavigation : MonoBehaviour
 
 	void Update()
 	{
-		// Si aucun bouton n'est sélectionné le premier de la liste est sélectionnées
-		if (eventSystem.currentSelectedGameObject == null && GetComponentsInChildren<Button>(false).Length > 0)
+		if (GetComponentsInChildren<Button>(false).Length > 0)
 		{
-			GetComponentsInChildren<Button>(false)[0].Select();
+			time += Time.deltaTime;			
+			float depx = Input.GetAxisRaw("Horizontal");
+			if (depx>0 && time > 0.2){
+				selection++;
+				time = 0;
+			}		
+			if (depx<0 && time > 0.2){
+				selection--;
+				time = 0;
+			}
+			if (selection >= GetComponentsInChildren<Button>(false).Length)
+				selection = 0;
+			if (selection < 0)
+				selection = GetComponentsInChildren<Button>(false).Length-1;
+			GetComponentsInChildren<Button>(false)[selection].Select();
+			/*
+			if (Input.GetKeyDown("8"))
+			{
+				GetComponentsInChildren<Button>(false)[selection].onClick.Invoke();
+			}
+			*/
+			
 		}
 	}
 }

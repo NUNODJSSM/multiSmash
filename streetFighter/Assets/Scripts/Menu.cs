@@ -13,7 +13,7 @@ public class Menu : MonoBehaviour
 {
 	public static bool gameIsPaused = false;
 
-	public GameObject Pause;
+	public GameObject Pause = null;
 
 	void Update()
 	{

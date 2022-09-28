@@ -31,10 +31,8 @@ public class ShowRound : StateMachineBehaviour
 		{
 			GameObject.Find("ScorePlayer" + (i + 1)).GetComponent<Text>().text = score[i].ToString();
 		}
-
 		// Affichage du round
 		animator.gameObject.GetComponent<Text>().text = "Round " + round;
-
 		animator.ResetTrigger("New Round");
 	}
 }
