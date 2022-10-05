@@ -12,7 +12,7 @@ public class ShowRound : StateMachineBehaviour
 	/// <summary>
 	/// Nombre de rounds maximum
 	/// </summary>
-	public const byte MAX_ROUND = 3;
+	public const byte MAX_ROUND = 5;
 
 	/// <summary>
 	/// Num�ro du round

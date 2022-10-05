@@ -335,9 +335,11 @@ public class player : MonoBehaviour
 		dead = true;
 		deathTime = Time.time;
 
+		//GameObject.Find("ecranWin").SetActive(true);
+
 		GameObject.Find("Timer").GetComponent<Timer>().ended = true;
 
-		GameObject.Find("Canvas").transform.GetChild(3).gameObject.SetActive(true);
+		GameObject.Find("Canvas").transform.Find("EcranWin").gameObject.SetActive(true);
 
 		// Affiche le joueur gagnant du round et augmente son score
 		if (!tie)
@@ -359,6 +361,7 @@ public class player : MonoBehaviour
 		// Affichage du gagnant de la partie
 		if (ShowRound.round == ShowRound.MAX_ROUND)
 		{
+
 			GameObject.Find("ButtonNextRound").SetActive(false);
 
 			if (!tie)
@@ -399,7 +402,7 @@ public class player : MonoBehaviour
 	private void ShowWinner(int playerIndex, int displayPlayer)
 	{
 		ShowRound.score[playerIndex]++;
-		GameObject.Find("ScorePlayer2").GetComponent<Text>().text = ShowRound.score[playerIndex].ToString();
+		//GameObject.Find("ScorePlayer2").GetComponent<Text>().text = ShowRound.score[playerIndex].ToString();
 		GameObject.Find("Winner").GetComponent<Text>().text = "Player " + displayPlayer + " has won the round";
 	}
 

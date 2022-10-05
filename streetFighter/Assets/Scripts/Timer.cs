@@ -9,6 +9,7 @@ using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
+
 	/// <summary>
 	/// Dur�e du match en secondes
 	/// </summary>

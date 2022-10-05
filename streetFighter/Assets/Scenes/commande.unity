@@ -986,7 +986,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1228, y: -599}
+  m_AnchoredPosition: {x: -1228, y: -628}
   m_SizeDelta: {x: 280.338, y: 22.6648}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1442152434
@@ -1022,7 +1022,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Deplacement/saut
+  m_Text: 'Deplacement
+
+    /saut'
 --- !u!222 &1442152435
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1172,7 +1174,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: baab536dd45ce794f94899a2b2d86164, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fd37ff23a31086b448c4d46a2ea66b82, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
